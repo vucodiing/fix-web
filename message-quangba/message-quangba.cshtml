@@ -1,0 +1,22 @@
+@using TeamplateHotel.Handler
+@using ProjectLibrary.Database
+@{
+    ViewBag.Title = "Messages";
+    Layout = "~/Views/Shared/_LayoutPage.cshtml";
+    Menu menu = ViewBag.Menu ?? new Menu();
+}
+
+<!-- Internal Page Header -->
+<section class="section-sub-banner" style="background-image: url('../../Content/img/2132017131156b25.jpg');"></section>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="des-article">
+                <br />
+               @* @Html.Raw(ViewBag.Messages) *@
+			  
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>
